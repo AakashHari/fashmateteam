@@ -20,8 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.acceptAlert()
-
 WebUI.openBrowser('www.fashmates.com')
 
 WebUI.maximizeWindow()
@@ -33,6 +31,4 @@ WebUI.setText(findTestObject('sign in/set existing username'), 'haricasp419@gmai
 WebUI.setText(findTestObject('Page_1535112742354/Page_Fashmates/input_password'), 'Qw1234')
 
 WebUI.click(findTestObject('sign in/cllick the sign in button'))
-
-WebUI.click(findTestObject('create set/click create'))
 

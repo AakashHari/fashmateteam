@@ -19,3 +19,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('sign in/sign in'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('create set/click create'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_Fashmates.com/a_Create a Set'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_Fashmates.com/a_My Items'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('create set/click upload'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Page_Fashmates.com/div_Browse your computer'))
+
